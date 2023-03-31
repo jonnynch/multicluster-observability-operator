@@ -66,7 +66,8 @@ kubectl create ns open-cluster-management-observability
 ```
 
 2. Deploy the minio service which acts as storage service of the multicluster observability:
-   Note: check storage class before creation
+
+**Note: check storage class before creation**
 ```bash
 kubectl -n open-cluster-management-observability apply -k examples/minio
 ```
